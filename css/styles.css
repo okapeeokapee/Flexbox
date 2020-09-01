@@ -1,14 +1,27 @@
-html{
+/* html{
   height: 100%;
-}
+} */
 
 body{
   margin: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100%; */
 }
 header{
+  height: 200px;
+  background: silver;
+  position: relative;
+}
+div{
+  width: 100px;
+  height: 40px;
+  background: skyblue;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 50px);
+}
+/* header{
   background: pink;
   margin-bottom: 100px;
 }
@@ -32,4 +45,4 @@ aside{
 }
 footer{
   background: silver;
-}
+} */

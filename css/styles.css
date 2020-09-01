@@ -4,11 +4,16 @@ body{
 header{
   background: pink;
 }
+.container{
+  display: flex;
+}
 main{
   background: skyblue;
+  flex: 1;
 }
 aside{
   background: orange;
+  width: 100px;
 }
 footer{
   background: silver;

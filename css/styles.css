@@ -12,14 +12,17 @@ header{
   height: 200px;
   background: silver;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 div{
-  width: 100px;
-  height: 40px;
+  width: 50px;
+  height: 100px;
   background: skyblue;
-  position: absolute;
+  /* position: absolute;
   top: calc(50% - 20px);
-  left: calc(50% - 50px);
+  left: calc(50% - 50px); */
 }
 /* header{
   background: pink;
